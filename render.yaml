@@ -1,5 +1,5 @@
 services:
-  - type: worker # On définit le type de service comme un "worker" car ce n'est pas un site web.
+  - type: web # On définit le type de service comme un "worker" car ce n'est pas un site web.
     plan : free
     name: tiktok-view-bot # Le nom que tu veux donner à ton service sur Render.
     env: python # L'environnement d'exécution, ici c'est Python.
