@@ -3,7 +3,7 @@ services:
     plan : free
     name: tiktok-view-bot # Le nom que tu veux donner à ton service sur Render.
     env: python # L'environnement d'exécution, ici c'est Python.
-    repo: https://github.com/Bakwrwz/TikTok-View-Bot-2025.git # L'URL de ton dépôt GitHub.
+    repo: https://github.com/Tog-allah/TikTok-View.git # L'URL de ton dépôt GitHub.
     branch: main # La branche de ton dépôt à déployer.
     buildCommand: "pip install -r requirements.txt" # La commande pour installer les dépendances.
     startCommand: "python3 main.py" # La commande pour lancer ton script principal.
